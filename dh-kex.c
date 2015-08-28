@@ -37,7 +37,7 @@
 #include <openssl/rand.h>
 
 #define BUFSIZE 1024
-#define HOST 0x0100007f /* 0x0100007f == 127.0.0.1 || 0a01a8c0 == 192.168.1.10 || 0x5781AE51 == 81.174.129.87 */
+#define HOST 0x0100007f /* 0x0100007f == 127.0.0.1 */
 #define PORT (unsigned short) 0xB822 /* 8888 */
 
 #define MAX_PRIME 65000 //Bigger the number the slower the algorithm
